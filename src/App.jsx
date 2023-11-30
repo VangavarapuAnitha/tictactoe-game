@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="app">
       <h1>
-        Tic <span className="text-green">Tac</span>Toe
+        TIC <span className="text-green">TAC</span> {''}TOE
       </h1>
       <StatusMessage winner={winner} gamingBoard={gamingBoard} />
       <Board
